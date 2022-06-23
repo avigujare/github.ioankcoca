@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <title>Landing Page Design Using HTML & CSS</title>
+</head>
+<body>
+    
+    <div class="container">
+        <div class="header">
+            <img src="images/log4-modified.png" class="logo">
+    
+
+            <nav>
+                <ul id ="menuList">
+                    <li><a href="">Home</a></li>
+                    <li><a href="">Products</a></li>
+                    <li><a href="">Community</a></li>
+                    <li><a href="">Contact</a></li>
+                </ul>
+            </nav>
+            <img src ="images/menu-modified.png" class="menu-icon" onclick="togglemenu()">
+            
+        </div>
+        <H2>"Wish You Happy New Year."</H2>
+
+        <div class="content">
+            <div class="text">
+            <h1>Be Young, Have Fun, <br> <span>Drink coca-cola</span></h1>
+            <p>Refreshing the Feelings,Things fo better with coke.</p>
+            </p>
+            <button class="btn3">Buy Now</button>
+           </div>
+        <div class="coca">
+        <img src="images/can1.png" alt="">
+        </div>
+        <div class ="women">
+        <img src="images/women.png" alt="">
+
+        </div>
+        <script>
+            var menuList = document.getElementById("menuList")
+            menuList.style.maxHeight = "300px";
+            function togglemenu()
+            {
+                if(menuList.style.maxHeight == "0px")
+                {
+                    menuList.style.maxHeight="300px"
+                }
+                else{
+                    menuList.style.maxHeight="0px"
+
+                }
+
+            }
+            
+            </script>
+    
+</body>
+</html>
+ 
